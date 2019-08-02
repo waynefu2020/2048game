@@ -27,9 +27,10 @@ function init() {
       board[i][j] = 0;
     }
   }
+  updateBoardView();
 }
 
-updateBoardView();
+
 
 function updateBoardView() {
   $(".number-cell").remove();
